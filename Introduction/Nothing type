@@ -14,3 +14,4 @@ fun main() {
 }
 
 //agar function tidak berjalan terus menerus dan menjadi throw exception karena nilai age disini null
+//jika print tidak menerima variable dengan nilai null, tetapi variable bisa null maka dihentikan prosesnya
