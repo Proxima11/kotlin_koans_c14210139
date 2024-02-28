@@ -1,3 +1,3 @@
 fun start(): String = "OK"
 
-cara membuat function
+//cara membuat function
