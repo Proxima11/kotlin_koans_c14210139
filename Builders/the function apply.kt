@@ -20,3 +20,5 @@ fun createMap(): Map<Int, String> {
         }
     }
 }
+
+//mengeksekusi isi function berdasarkan parameter yang diberikann

@@ -5,3 +5,5 @@ fun Customer.getOrderedProducts(): List<Product> =
 // Return all products that were ordered by at least one customer
 fun Shop.getOrderedProducts(): Set<Product> =
         customers.flatMap(Customer::getOrderedProducts).toSet()
+
+//mengubah dimensi sebuah list menjadi lebih kecil sehingga mudah dipahami

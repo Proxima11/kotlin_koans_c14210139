@@ -41,3 +41,5 @@ fun main() {
     println(createTable())
     //<table><tr><td></td><td></td></tr></table>
 }
+
+//mengimplementasikan builder untuk membuat html

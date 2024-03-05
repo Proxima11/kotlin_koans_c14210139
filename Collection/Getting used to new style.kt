@@ -6,3 +6,5 @@ fun doSomethingWithCollection(collection: Collection<String>): Collection<String
 
     return groupsByLength.values.firstOrNull { group -> group.size == maximumSizeOfGroup }
 }
+
+//menyederhanakan fungsi dengan ->

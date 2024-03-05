@@ -6,3 +6,5 @@ fun Shop.getCustomerCities(): Set<City> =
 // Find the customers living in a given city
 fun Shop.getCustomersFrom(city: City): List<Customer> =
         customers.filter { it.city == city }
+
+//memetakan value berdasarkan key nya

@@ -6,3 +6,5 @@ class PropertyExample() {
             counter++
         }
 }
+
+//property merujuk pada variable dan value yang kita declare

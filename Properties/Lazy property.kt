@@ -8,3 +8,5 @@ class LazyProperty(val initializer: () -> Int) {
             return value!!
         }
 }
+
+//lazy berarti property tersebut menjadi lebih tidak dipakai fungsi maksimalnya dengan adanya function

@@ -4,3 +4,5 @@ fun task(): List<Boolean> {
 
     return listOf(42.isOdd(), 239.isOdd(), 294823098.isEven())
 }
+
+//fungsi -> untuk mederhanakan fungsi bisa untuk refer hasil object (kiri) dari isi fungsi (kanan)

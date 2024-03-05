@@ -20,3 +20,5 @@ fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {
 
 fun Customer.getOrderedProducts(): Sequence<Product> =
         orders.asSequence().flatMap(Order::products)
+
+//menjalankan proses satu per satu untuk tiap elemen dalam list

@@ -9,3 +9,5 @@ fun Shop.customerToCityMap(): Map<Customer, City> =
 // Build a map from the customer name to their city
 fun Shop.customerNameToCityMap(): Map<String, City> =
         customers.associate { it.name to it.city }
+
+//memberikan reference sebuah value

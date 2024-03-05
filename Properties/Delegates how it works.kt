@@ -17,3 +17,4 @@ class EffectiveDate<R> : ReadWriteProperty<R, MyDate> {
         timeInMillis = value.toMillis()
     }
 }
+//cara delegate menyimpan value ^

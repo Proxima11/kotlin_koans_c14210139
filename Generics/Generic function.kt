@@ -25,3 +25,5 @@ fun partitionLettersAndOtherSymbols() {
     check(letters == setOf('a', 'r'))
     check(other == setOf('%', '}'))
 }
+
+//membuat sebuah class atau fungsi yang dapat menyesuaikan diri dan bisa diisi dengan tipe variabel apapun

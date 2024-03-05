@@ -32,3 +32,5 @@ fun renderProductTable(): String {
 
 fun getTitleColor() = "#b9c9fe"
 fun getCellColor(index: Int, column: Int) = if ((index + column) % 2 == 0) "#dce4ff" else "#eff2ff"
+
+//membuat html dari builder yang sudah diinisiasi sehingga tidak perlu menulis ulang

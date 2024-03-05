@@ -14,3 +14,5 @@ fun usage(): Map<Int, String> {
         }
     }
 }
+
+//untuk menginisiasi pembuatan sebuah mapping string
